@@ -1,0 +1,27 @@
+# ATmega328P-A (8 MHz internal clock) board definition.
+# Joran van Gremberghe, Joranalogue Audio Design, 2017.
+
+##############################################################
+
+atmega328p-a.name=ATmega328P-A (8 MHz internal clock)
+
+atmega328p-a.upload.protocol=arduino
+atmega328p-a.upload.maximum_size=30720
+atmega328p-a.upload.speed=57600
+
+atmega328p-a.bootloader.low_fuses=0xE2
+atmega328p-a.bootloader.high_fuses=0xDA
+atmega328p-a.bootloader.extended_fuses=0x05
+
+atmega328p-a.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+atmega328p-a.bootloader.unlock_bits=0x3F
+atmega328p-a.bootloader.lock_bits=0x0F
+
+atmega328p-a.build.mcu=atmega328p
+atmega328p-a.build.f_cpu=8000000L
+atmega328p-a.build.board=AVR_ATMEGA328P-A
+atmega328p-a.build.core=arduino:arduino
+atmega328p-a.build.variant=atmega328p-a:standard
+
+atmega328p-a.bootloader.tool=arduino:avrdude
+atmega328p-a.upload.tool=arduino:avrdude

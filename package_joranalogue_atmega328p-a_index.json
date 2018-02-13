@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "name": "atmega328p-a",
+      "maintainer": "Joran van Gremberghe",
+      "websiteURL": "https://github.com/joranvg/arduino-atmega328p-a",
+      "platforms": [
+        {
+          "name": "ATmega328P-A (8 MHz internal clock)",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/joranvg/arduino-atmega328p-a/master/atmega328p-a.zip",
+          "archiveFileName": "atmega328p-a.zip",
+          "boards": [
+            {"name": "ATmega328p-A (8 MHz internal clock)"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
