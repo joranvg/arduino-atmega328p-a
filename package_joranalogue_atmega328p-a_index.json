@@ -13,7 +13,7 @@
           "url": "https://raw.githubusercontent.com/joranvg/arduino-atmega328p-a/master/atmega328p-a.zip",
           "archiveFileName": "atmega328p-a.zip",
           "boards": [
-            {"name": "ATmega328p-A (8 MHz internal clock)"}
+            {"name": "ATmega328P-A (8 MHz internal clock)"}
           ],
           "toolsDependencies": []
         }
